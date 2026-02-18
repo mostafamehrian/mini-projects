@@ -1,0 +1,129 @@
+{
+    "User": {
+        "1": {
+            "userid": 3232,
+            "name": "mosi",
+            "email": "cinema.report2018@gmail.com",
+            "phune_number": 9034389982,
+            "password": 12345678,
+            "monthly_income": 10000000
+        }
+    },
+    "wallet": {
+        "1": {
+            "userid": 3232,
+            "wallet_id": 2020,
+            "wallet_name": "melat-card",
+            "wallet_type": "credit_card",
+            "current_balance": 15750000
+        }
+    },
+    "transaction": {
+        "1": {
+            "wallet_id": 2020,
+            "transaction_id": 1123,
+            "transaction_name": "kharid bastani",
+            "transaction_date": "2026-01-13 15:09:03.133922",
+            "transaction_amount": 250000,
+            "transaction_type": "Expense",
+            "transaction_category_id": 1,
+            "transaction_description": "buy ice cream"
+        },
+        "2": {
+            "wallet_id": 2020,
+            "transaction_id": 1123,
+            "transaction_name": "kharid bastani",
+            "transaction_date": "2026-01-13 17:23:59.720136",
+            "transaction_amount": 250000,
+            "transaction_type": "Expense",
+            "transaction_category_id": 1,
+            "transaction_description": "buy ice cream"
+        },
+        "3": {
+            "wallet_id": 2020,
+            "transaction_id": 1124,
+            "transaction_name": "kharid morgh",
+            "transaction_date": "2026-01-13 17:33:12.104926",
+            "transaction_amount": 250000,
+            "transaction_type": "Expense",
+            "transaction_category_id": 1,
+            "transaction_description": "buy chekeen"
+        },
+        "4": {
+            "wallet_id": 3232,
+            "transaction_id": 1,
+            "transaction_name": "buy audio book",
+            "transaction_date": "2026-01-14 16:33:00",
+            "transaction_amount": 124000.0,
+            "transaction_type": "Expense",
+            "transaction_category_id": 2,
+            "transaction_description": "buy audio book from taghche"
+        },
+        "5": {
+            "wallet_id": 3232,
+            "transaction_id": 2,
+            "transaction_name": "d",
+            "transaction_date": "2025-12-01 17:35:00",
+            "transaction_amount": 100.0,
+            "transaction_type": "Expense",
+            "transaction_category_id": 1,
+            "transaction_description": ""
+        },
+        "6": {
+            "wallet_id": 3232,
+            "transaction_id": 3,
+            "transaction_name": "s",
+            "transaction_date": "2026-01-12 17:35:00",
+            "transaction_amount": 233.0,
+            "transaction_type": "Expense",
+            "transaction_category_id": 1,
+            "transaction_description": ""
+        },
+        "7": {
+            "wallet_id": 3232,
+            "transaction_id": 5,
+            "transaction_name": "dsd",
+            "transaction_date": "2025-12-02 17:47:00",
+            "transaction_amount": 200000.0,
+            "transaction_type": "Expense",
+            "transaction_category_id": 1,
+            "transaction_description": ""
+        }
+    },
+    "category": {
+        "1": {
+            "userid": 3232,
+            "category_id": 1,
+            "category_name": "Foods",
+            "category_type": "Expense",
+            "category_color": "#0000",
+            "category_icon": null
+        },
+        "2": {
+            "userid": 3232,
+            "category_id": 2,
+            "category_name": "RENT",
+            "category_type": "Expense",
+            "category_color": "#7d1a1a",
+            "category_icon": null
+        },
+        "3": {
+            "userid": 3232,
+            "category_id": 3,
+            "category_name": "bank",
+            "category_type": "Income",
+            "category_color": "#000000",
+            "category_icon": null
+        }
+    },
+    "budget": {
+        "1": {
+            "budget_id": 22348,
+            "category_id": 11,
+            "start_date": "2026-01-13 16:51:57.793442",
+            "end_date": "2026-02-13 15:09:03.133922",
+            "limit_amount": 1000000,
+            "remaining_amount": 299667.0
+        }
+    }
+}
